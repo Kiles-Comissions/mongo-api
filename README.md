@@ -1,10 +1,11 @@
 # mongo api
- A clone of the deprecated mongoDB API
+ A clone of the deprecated mongoDB API which allows modifying you database through an API
 
 ## General request body
 Generally, every request needs `collection` argument. This is so it knows which collection to apply the search/modification to. The Database will always be the one specified when starting the API because it is assumed it will always be the same. Below you can find a destinction between the two:
 
-<img width="256" alt="image" src="https://gist.github.com/user-attachments/assets/64e194da-eb14-41f2-8ee5-a6c427fb7909" />
+![image](https://github.com/user-attachments/assets/d58b6ab0-17a5-45d2-b388-7421bfe2e192)
+
 
 So every request will need 
 ```js
