@@ -35,7 +35,7 @@ This also allows for the use of special mongodb operators in the request body. W
 - [aggregate](#aggregate)
 
 ### `/find`
-type: `GET`
+type: `POST`
 #### Request
 
 ```js
@@ -79,7 +79,7 @@ type: `GET`
 > You can use special mongodb search operators in the filter object. For example, the `$gt` operator in the example above. You can find more about these operators [here](https://docs.mongodb.com/manual/reference/operator/query/)
 
 ### `/findOne`
-type: `GET`
+type: `POST`
 #### Request
 ```js
 {
